@@ -80,28 +80,7 @@ You will need to provide a submission .csv file. We've provided detailed instruc
 3,A
 etc...
 
-## Tutorials and other useful materials
+# Resources:
 
-### Competition-specific tutorials
-
-Useful Resources and Toolboxes:
-MNE Python Library for comprehensive EEG data analysis tools.
-pyRiemann Library for covariance matrix manipulation and classification in Riemannian space.
-Analysing EEG Data with MNE Tutorial, covering various aspects of EEG processing.
-
-### Tips for success!
-
-Multi-Class Machine Learning Challenge: Participants will tackle a multi-class classification problem with seven EEG markers, requiring sophisticated strategies for classifying multiple classes effectively.
-Class Imbalance: The dataset presents challenges with class imbalances. Participants will be provided with exploratory code in the 'Exploratory Data Analysis' section to visualize and understand these imbalances, crucial for developing effective models.
-Transfer Learning Opportunity: This competition involves transfer learning, with models trained on data from two subjects and tested on others, simulating real-world scenarios of model generalization.
-Challenges of EEG Data Analysis: EEG data analysis involves handling signal noise, variability, and artifacts. Participants are advised to employ preprocessing methods for data cleaning and enhancement.
-Evaluation
-Evaluation data
-Evaluation is performed on data from the test subject. Participants will receive the test subect's EEG data, but not the event labels associated with it. These will have to be predicted from the EEG data using ML models trained on data from the training subjects.
-
-    Tip - you'll need to train your models on data from some individuals and apply to data from a new individual that was not part of the training set. Explore different methods to improve your model's ability to transfer to new data. This will be crucial to perform well in the challenge!
-Like the training data, the evaluation EEG data includes raw EEG signal organized in 30s epochs. Each epoch is associated with a single event marker, which the models will need to predict.
-
-Refer to the tutorials for more details about the evaluation data, metric and submission file.
-
-https://www.kaggle.com/competitions/bci-i-idun-eeg-analysis-challenge/overview
+- Repository made by challenge-creators: https://github.com/BCI-I/BCII-IDUN-Challenge-tutorials
+- Link to the Kaggle challenge page: https://www.kaggle.com/competitions/bci-i-idun-eeg-analysis-challenge/overview
