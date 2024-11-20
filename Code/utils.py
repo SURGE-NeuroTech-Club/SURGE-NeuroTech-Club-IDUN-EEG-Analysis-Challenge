@@ -6,6 +6,16 @@ import mne
 import matplotlib.pyplot as plt
 import os.path as op
 
+markers: list[str] = ['S', 'K', 'REM', 'Son', 'Soff', 'A', 'MS', ]
+marker_colors: dict[str, str] = {
+    'S': 'r',
+    'K': 'g',
+    'REM': 'b',
+    'Son': 'm',
+    'Soff': 'c',
+    'A': 'y',
+    'MS': 'k',
+}
 
 def load_eeg(data_dir:Path, subject: str) -> mne.io.Raw:
     fname = f"{subject}_eeg_raw.mat"
